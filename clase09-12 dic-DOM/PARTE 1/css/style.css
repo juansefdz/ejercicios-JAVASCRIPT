@@ -1,0 +1,29 @@
+.titulo{
+    color:red;
+    font-size: 25px;
+    background-color: black;
+}
+
+table{
+    background: rgba(143, 143, 143, 0.144);
+    border-radius: 10px;
+    border: 2px solid black;
+    overflow: hidden;
+    min-width: 50%;
+    margin: auto;
+
+}
+table thead{
+    background-color: rgb(2, 24, 65);
+    color: #fafafa;
+    padding: 20px;
+
+
+}
+
+table th, td {
+    padding: 20px;
+}
+table tr:nth-child(even){
+    background: #b0c6f763;
+}
